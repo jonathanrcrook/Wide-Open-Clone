@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url("http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.jpg");
+  height: 500px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+background-size: cover;
+
+}
+
+a.navbar-brand {
+   width: 175px;
+ }
+
+nav.navbar-default {
+  margin: 0;
+}
+
+.works {
+  color: #BDD436;
+}
+
+main {
+  color: white;
+  font-family: Oswald;
+  width: 100%;
+}
+
+.digital {
+  color: white;
+  font-family: Oswald;
+  text-align: center;
+}
+
+.workshop {
+  color: white;
+  font-family: Oswald;
+  text-align: center;
+  font-size: 155px;
+  line-height: 140px;
+  margin-top: 50px;
+}
+
+.building {
+  color: white;
+  font-family: Oswald;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+.solutions {
+  color: #FF803A;
+}
+
+.ideas {
+  color: #BDD436;
+}
+
+.button {
+  background-color: #BDD436;
+  color: #FFF;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px 35px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-countainer{
+  text-align: center;
+  padding-top: 20px;
+
+}
+
+.text p {
+  font-size: 24px;
+  text-align: inherit;
+}
+
+.pencil-wrench {
+  content: " ";
+display: block;
+background: url("http://wideopentech.com/themes/wot-2013-gm/_/img/sprite_home.png");
+width: 75px;
+height: 75px;
+margin: 0 auto;
+background-position: -22px -113px;
+margin-bottom: 20px;
+}
+
+.text {
+  text-align: center;
+}
+
+.text-two {
+  font-size: 40px;
+  text-transform: capitalize;
+  font-weight: 300;
+  margin-top: 36px;
+  text-align: center;
+}
+
+.first-container {
+  background-color: #F2F2F2
+}
+
+.flex-container-one {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.flex-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 50px;
+  padding-left: 20px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.flex-item-bulb {
+    content: " ";
+    display: block;
+    width: 131px;
+    height: 160px;
+    background: url("http://wideopentech.com/themes/wot-2013-gm/_/img/sprite_home.png") no-repeat;
+    background-position: -311px -100px;
+    margin: 0 auto 27px auto;
+}
+
+.flex-item-arrow {
+    content: " ";
+    display: block;
+    width: 131px;
+    height: 160px;
+    background: url("http://wideopentech.com/themes/wot-2013-gm/_/img/sprite_home.png") no-repeat;
+    background-position: -227px -91px;
+    width: 74px;
+    margin: 0 auto 27px auto;
+}
+
+.flex-item-power {
+    content: " ";
+    display: block;
+    width: 131px;
+    height: 160px;
+    background: url("http://wideopentech.com/themes/wot-2013-gm/_/img/sprite_home.png") no-repeat;
+    background-position: -119px -100px;
+    width: 94px;
+    margin: 0 auto 27px auto;
+}
+
+.font-special {
+  color: #BDD436;
+}
+
+@media screen and (max-width: 600px) {
+  .flex-container-one {
+    flex-direction: column;
+  }
+}
+
+.second-container {
+  background-color: #F0F0F0
+}
+
+.main-block-text {
+  text-transform: capitalize;
+  font-size: 40px;
+  font-weight: 300;
+  margin-top: 35px;
+  text-align: center;
+  font-family: Oswald;
+  color: #40666d;
+  background-color: #F0F0F0
+}
+
+.main-block-text em {
+  color: #BDD436;
+  font-family: Oswald;
+}
+
+.main-block-text-two {
+  text-transform: capitalize;
+  text-align: center;
+  font-family: Oswald;
+  font-size: 20px;
+  margin-top: 5px;
+  color: #40666d;
+  background-color: #F0F0F0
+}
+
+footer {
+background-color: #F6F6F6;
+}
+
+.ending {
+  display: block;
+color: #6A787C;
+margin-bottom: 10px;
+letter-spacing: 1px;
+font-size: 12px;
+}
+
+.flex-container-two {
+  display: flex;
+  justify-content: space-around;
+  font-size: 24px;
+  background-color: #F0F0F0;
+}
+
+.flex-row-one {
+  background: #F0F0F0;
+margin: 0 0 15px 0;
+padding: 50px;
+}
+
+.flex-row-two {
+  background: #F0F0F0;
+margin: 0 0 15px 0;
+padding: 50px;
+}
+
+.flex-item-box-1 {
+background-color: white;
+ text-align: center;
+ border-style: solid;
+ border-color: ;
+ padding: 20px 0 20px 0;
+}
+
+.flex-item-box-2 {
+background-color: white;
+text-align: center;
+border-style: solid;
+border-color: ;
+padding: 20px 0 20px 0;
+}
+
+.flex-item-box-3 {
+background-color: white;
+text-align: center;
+border-style: solid;
+border-color: ;
+padding: 20px 0 20px 0;
+}
+
+.flex-item-box-4 {
+background-color: white;
+text-align: center;
+border-style: solid;
+border-color: ;
+padding: 20px 0 20px 0;
+}
+
+.flex-item-box-5 {
+background-color: white;
+text-align: center;
+border-style: solid;
+border-color: ;
+padding: 20px 0 20px 0;
+}
